@@ -5,7 +5,7 @@ Allows users to monitor a mupx server (running multiple meteor apps via mupx/Doc
 
 The dashboard is a 'card' summary of currently running apps. Each card has basic information on the web app (it's name, Port number, Docker container ID, etc...) and provides a screenshot of the running app.
 
-* 1st set up an operation mupx server with Meteor and nginx also isntalled on the host server
+* First set up an operation mupx server with Meteor and nginx also installed on the host server
 * install this app as a meteor app running on the host
 * nginx is used to reverse proxy to the Dockerized web apps ("http(s)//<mupx server hostname>/<web app name>")
 
